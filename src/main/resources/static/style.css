@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.comment-box {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.comment-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form button {
+    margin-right: 10px;
+}
+
+.like-button {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
+}
+
+.like-button.liked .like-icon {
+    filter: invert(41%) sepia(96%) saturate(2795%) hue-rotate(341deg) brightness(99%) contrast(101%);
+}
+
+.like-count {
+    margin-left: 5px;
+}
+
+.like-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.comments {
+    margin-top: 20px;
+}
+
+.comments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comments li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
